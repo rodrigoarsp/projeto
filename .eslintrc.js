@@ -18,14 +18,13 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier',
   ],
   rules: {
-    'prettier/prettier': 'error',
-    'react/jsx-filename-extension': [
+    'prettier/prettier':'error',
+    'react/jsx-filename-extension':[
       'warn',
       {
-        extensions: ['.jsx','.js'],
+        extensions: ['.jsx','.js']
       },
     ],
     'import/prettier-default-export': 'off',

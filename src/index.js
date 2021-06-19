@@ -5,6 +5,8 @@ import {
   View,
 } from 'react-native';
 
+import './config/ReactotronConfig';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -19,6 +21,7 @@ const styles = StyleSheet.create({
   },
 });
 
+console.tron.warn('Hello Word');
 
 export default function App() {
   return (
